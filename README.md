@@ -10,3 +10,8 @@ esc退出插入模式，进入命令模式
 u撤销，Ctrl+r撤销“撤销”操作  
 /test从光标向后搜索，？test从光标向前搜索test字符串，n重复向前搜索，N重复向后搜索  
 J当前行与下一行合并  
+**Nano**  
+alt+6复制一整行，CTRL+u粘贴  
+**ssh远程连接服务器**  
+安装openssh-server,ifconfig查看地址，sudo systemctl status ssh检查ssh服务器状态（active），**问题**防火墙sudo ufw status的结果一直是不活跃，但好像没影响，ssh username@ip进行远程连接，输入密码，看到![image](https://github.com/user-attachments/assets/77824fac-01f3-41cb-a349-0e8b2fc78594)
+exit退出连接
