@@ -1,5 +1,5 @@
-# work1
-## vim 学习
+# Linux
+## vim (Nano)学习
 首先是关于Ubuntu终端的一些命令。ls为查看当前目录下的文件夹，cd+文件名为进入每一个文件，rm+文件名为删除文件，cd ..返回到上一级目录，mkdir+目录为创建。vim test.c创建（打开）一个文件。  
 **vim编辑器的常用命令**：  
 插入模式：i（光标前），I（当前行的第一个非空白符前），a（光标后插入），A（当前行的末尾插入），o（打开新的一行插入），O（当前行的上方打开新的一行）  
@@ -12,11 +12,11 @@ u撤销，Ctrl+r撤销“撤销”操作
 J当前行与下一行合并  
 **Nano**  
 alt+6复制一整行，CTRL+u粘贴  
-**ssh远程连接服务器**  
+##ssh远程连接服务器  
 安装openssh-server,ifconfig查看地址，sudo systemctl status ssh检查ssh服务器状态（active），**问题**防火墙sudo ufw status的结果一直是不活跃，但好像没影响，ssh username@ip进行远程连接，输入密码，看到![image](https://github.com/user-attachments/assets/77824fac-01f3-41cb-a349-0e8b2fc78594)
 exit退出连接
 
-**Linux命令行基本操作**  
+##Linux命令行基本操作  
 #列出当前目录下所有文件和目录  
 ls
 #复制文件到目录dest  
