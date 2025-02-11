@@ -42,4 +42,5 @@ cd dirname
 #删除一个空目录
 rmdir dirname
 #屏幕上显示hello  
-echo "hello"
+echo "hello"  
+[image][.(https://www.runoob.com/wp-content/uploads/2015/02/011500266295799.jpg).
