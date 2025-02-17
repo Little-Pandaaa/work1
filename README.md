@@ -72,6 +72,8 @@ echo "hello"
 2.相机坐标系转换到像素坐标系
 ![image](https://github.com/user-attachments/assets/3c48d01a-7f9e-43fe-9260-d9d7253a39a0)
 ![image](https://github.com/user-attachments/assets/fbb890d8-0a4d-46b4-8acb-85f2204e942b)
+![image](https://github.com/user-attachments/assets/881bad6f-7adb-4059-a9cc-0aca009b0308)
+
 
 
 
