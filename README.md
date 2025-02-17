@@ -12,41 +12,41 @@ u撤销，Ctrl+r撤销“撤销”操作
 J当前行与下一行合并  
 **Nano**  
 alt+6复制一整行，CTRL+u粘贴  
-##ssh远程连接服务器  
+## ssh远程连接服务器  
 安装openssh-server,ifconfig查看地址，sudo systemctl status ssh检查ssh服务器状态（active），**问题**防火墙sudo ufw status的结果一直是不活跃，但好像没影响，ssh username@ip进行远程连接，输入密码，看到![image](https://github.com/user-attachments/assets/77824fac-01f3-41cb-a349-0e8b2fc78594)
 exit退出连接
 
-##Linux命令行基本操作  
-#列出当前目录下所有文件和目录  
+## Linux命令行基本操作  
+### 列出当前目录下所有文件和目录  
 ls
-#复制文件到目录dest  
+### 复制文件到目录dest  
 cp filename.txt dest/  
-#重命名文件  
+### 重命名文件  
 mv oldname.txt newname.txt  
-#删除文件
+### 删除文件
 rm filename.txt
-#新建文件
+### 新建文件
 touch filename.txt
-#查看文件
+### 查看文件
 cat filename.txt
-#搜索文件中的内容
+### 搜索文件中的内容
 grep pattern example.txt
-#打开一个文件
+### 打开一个文件
 cd filename  
-#回到上一级  
+### 回到上一级  
 cd ..
-#创建目录
+### 创建目录
 mkdir newdir  
-#切换到另一个目录
+### 切换到另一个目录
 cd dirname  
-#删除一个空目录
+### 删除一个空目录
 rmdir dirname
-#屏幕上显示hello  
+### 屏幕上显示hello  
 echo "hello"  
 [image][.(https://www.runoob.com/wp-content/uploads/2015/02/011500266295799.jpg).  
 
-#SLAM
-##世界坐标系，相机坐标系，像素坐标系转换关系  
+# SLAM
+## 世界坐标系，相机坐标系，像素坐标系转换关系  
 **世界坐标系**是一个用于描述真实世界中物体位置的参考坐标系。它是一个全局性的、固定的坐标系统，用于确定场景中所有物体的绝对位置和方向。  
   （全局性：它是一个全局性的坐标系统，能够描述场景中的所有物体。   
     固定性：相对于其他坐标系（如相机坐标系、像素坐标系等），世界坐标系是固定的，不会随着观察者的移动而改变。  
