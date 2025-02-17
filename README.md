@@ -42,9 +42,28 @@ cd dirname
 ### 删除一个空目录
 rmdir dirname
 ### 屏幕上显示hello  
-echo "hello"  
-[image][.(https://www.runoob.com/wp-content/uploads/2015/02/011500266295799.jpg).  
-
+echo "hello"    
+## git命令行基本操作
+  git init：初始化一个git仓库   
+  git clone：clone一个git仓库  
+  git config：配置信息  
+  git add：添加文件到缓存命令  
+  git status：查看文件的状态命令  
+  git diff：查看更新的详细信息命令  
+  git commit：提交命令  
+  git reset HEAD：取消缓存命令  
+  git rm：删除命令  
+  git mv：移动或重命名命令  
+  git branch：查看分支命令
+  git branch (branchname)：创建分支命令    
+  git checkout (branchname)：切换分支命令  
+  git merge：合并分支命令  
+  git branch -d (branchname)：删除分支命令  
+  git remote add：添加远程仓库  
+  git remote：查看当前的远程仓库  
+  git fetch、git pull：提取远程仓仓库  
+  git push：推送到远程仓库  
+  git remote rm：删除远程仓库  
 # SLAM
 ## 世界坐标系，相机坐标系，像素坐标系转换关系  
 **世界坐标系**是一个用于描述真实世界中物体位置的参考坐标系。它是一个全局性的、固定的坐标系统，用于确定场景中所有物体的绝对位置和方向。  
