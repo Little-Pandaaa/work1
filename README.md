@@ -93,7 +93,15 @@ echo "hello"
 ![image](https://github.com/user-attachments/assets/fbb890d8-0a4d-46b4-8acb-85f2204e942b)
 ![image](https://github.com/user-attachments/assets/881bad6f-7adb-4059-a9cc-0aca009b0308)
 ![image](https://github.com/user-attachments/assets/70fb71b1-0ad8-4106-a9d4-ec4efa33d355)
-![image](https://github.com/user-attachments/assets/b2292132-b0f6-4a73-8133-90716444ef25)
+![image](https://github.com/user-attachments/assets/b1b974b8-fbe1-4e8f-9f40-10d2e724182d)
+1、把图像分成四个象限,标定板平均分布在每个象限,每个象限至少拍两个不同倾斜角度的图片   
+2、标定板图片需要覆盖整个测量视场,标定图片的数量通常在15~25张之间  
+3、标定板的成像面积应大致占整幅画面的1/3~1/4  
+4、标定板成像过暗就需要用辅助光源补光,过亮就调整曝光时间,保证标定板的亮度足够且均匀  
+5、标定过程,相机的光圈、焦距不能发生改变,改变需要重新标定  
+*相机标定*
+
+
 
 
 
